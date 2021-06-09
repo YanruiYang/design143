@@ -1,0 +1,17 @@
+Package: design143
+Title: Easy Interface Computer Simulations and Designs
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sophia",
+           family = "Yang",
+           role = c("aut", "cre"),
+           email = "yanruiyang47@g.ucla.edu")
+Description: Users will be able to input data models, designs, possibly correlation functions, and necessary variables like numbers of replicates. The package will contain different functions which will ideally return basic analysis, comparisons between designs, or numeric results from the data models. These numeric results will be according to the user’s need and will include root mean square error or sample data from the generated design if the user wants simulated data from their specific design. For basic analysis and comparisons between designs, they will include boxplots of the root mean square error and contour plots if our data is in two or three dimensions. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	lhs,DiceKriging
